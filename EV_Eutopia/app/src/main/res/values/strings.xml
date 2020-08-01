@@ -1,3 +1,50 @@
 <resources>
-    <string name="app_name">EV_Eutopia</string>
+    <string name="app_name">EV Eutopia</string>
+
+    <!--    Main Activity-->
+    <string name="mainActivity_header">World of \nElectronic Vehicles</string>
+    <string name="mainActivity_paragraph">Ev Eutopia takes you to your journey of wonderness\nby creating a comfortable experience\nwith your Vehicle.</string>
+    <string name="mainActivity_btn">Let\'s Ride</string>
+
+    <!--    Authentication Activity-->
+    <string name="loginbtn">Sign In</string>
+    <string name="signupbtn">Sign Up</string>
+    <string name="newUserQues">Not a registered user?</string>
+
+    <!--    Signup Activity-->
+    <string name="tvSignUpTo">Sign up to</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Address">Address</string>
+    <string name="createAccount">Create Account</string>
+    <string name="alreadyAMember">Already a member?</string>
+
+    <!--    Navigation Menu-->
+    <string name="navHome">Home</string>
+    <string name="navNearestStation">Nearest Station</string>
+    <string name="navBatteryLife">Battery Status</string>
+    <string name="navFollowRoute">Follow Route</string>
+    <string name="navCommunity">Eco Stats</string>
+    <string name="logout">Logout</string>
+    <string name="controlYourCar">Control your Car</string>
+    <string name="car_controls">Car Controls</string>
+    <string name="car_climate_control">Climate Control</string>
+    <string name="charging_controls">Charging Controls</string>
+    <string name="media_controls">Media Controls</string>
+
+    <!--    Home Actvity-->
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!--        Home Fragment-->
+    <string name="carHealthStatus">Car Health Status</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!--    Maps Actvity-->
+    <string name="start_Navigation">Start Navigation</string>
+
+    <!--    Google Maps API key-->
+    <string name="maps_api_key">AIzaSyBNdta-pzNW-WrzVyZBR_REDKDtYmC3Hso</string>
 </resources>
