@@ -1,4 +1,4 @@
-package com.example.ev_eutopia;
+package com.example.eveutopia;
 
 import org.junit.Test;
 
