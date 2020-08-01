@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="2 Wheeler">
+        <menu>
+            <item
+                android:id="@+id/ev2w1"
+                android:title="2W-1" />
+            <item
+                android:id="@+id/ev2w2"
+                android:title="2W-2" />
+            <item
+                android:id="@+id/ev2w3"
+                android:title="2W-3" />
+        </menu>
+    </item>
+
+    <item android:title="3 Wheeler">
+        <menu>
+            <item
+                android:id="@+id/ev_auto_z1"
+                android:title="Auto-Z1" />
+            <item
+                android:id="@+id/ev_eRickshaw"
+                android:title="ERickshaw" />
+            <item
+                android:id="@+id/ev3w1"
+                android:title="3W-1" />
+        </menu>
+    </item>
+
+    <item android:title="4 Wheeler">
+        <menu>
+            <item
+                android:id="@+id/ev4w1"
+                android:title="Model S" />
+            <item
+                android:id="@+id/ev4w2"
+                android:title="ZS EV" />
+            <item
+                android:id="@+id/ev4w3"
+                android:title="Bolt EV" />
+        </menu>
+    </item>
+</menu>
