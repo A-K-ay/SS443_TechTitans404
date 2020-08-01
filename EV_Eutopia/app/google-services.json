@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "673244521650",
+    "firebase_url": "https://ev-eutopia-81a2d.firebaseio.com",
+    "project_id": "ev-eutopia-81a2d",
+    "storage_bucket": "ev-eutopia-81a2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673244521650:android:007c313fdf088e778f55ab",
+        "android_client_info": {
+          "package_name": "com.example.eveutopia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673244521650-t0ifaglp7d6mnf9qqkmr82594ptbv1ge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eveutopia",
+            "certificate_hash": "528f619c2497c9216530fb345d65124778b43b1b"
+          }
+        },
+        {
+          "client_id": "673244521650-i46jol7da902mnl5peuja0vhmdld4age.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYzqO9DV-pnsXXc9qTKkFW_tUV3Gus0xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673244521650-i46jol7da902mnl5peuja0vhmdld4age.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
