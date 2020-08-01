@@ -1,4 +1,4 @@
-package com.example.eveutopia;
+package com.example.ev_eutopia;
 
 import android.content.Intent;
 import android.location.Address;
@@ -14,6 +14,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.eveutopia.R;
+import com.example.eveutopia.User;
+import com.example.eveutopia.homeActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
