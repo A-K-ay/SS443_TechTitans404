@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="com.google.android.material.navigation.NavigationView">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/navHome" />
+        <item
+            android:id="@+id/nav_nearest_station"
+            android:icon="@drawable/ic_follow_route"
+            android:title="@string/navNearestStation" />
+        <item
+            android:id="@+id/nav_battery_life"
+            android:icon="@drawable/ic_battery_life"
+            android:title="@string/navBatteryLife" />
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_community"
+            android:title="@string/navCommunity" />
+
+    <item android:title="@string/controlYourCar">
+        <menu>
+            <item
+                android:id="@+id/nav_car_control"
+                android:icon="@drawable/ic_car_controls"
+                android:title="@string/car_controls" />
+            <item
+                android:id="@+id/nav_climate_control"
+                android:icon="@drawable/ic_climate_controls"
+                android:title="@string/car_climate_control" />
+        </menu>
+    </item>
+    </group>
+</menu>
