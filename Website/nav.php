@@ -28,7 +28,7 @@
                         <a href="preregister.php">Registration</a>
                     </li>
 					<li>
-                        <a href="blog.php">Blog</a>
+                        <a href="newblog.php">Blog</a>
                     </li>
 					<li>
                         <a href="contactus.php">Contact</a>

@@ -43,62 +43,16 @@
     <!-- Navigation -->
     <?php require_once 'nav.php' ; ?>
 
-    
-  <div id="login_div" class="container">
-        <div class="row">
-            <div class="box">
-			<div id="add_err3"></div>
-                <div class="col-lg-12">
-				<div class="alert alert-danger" >
-				<strong>You must be logged in to view the blog.</strong>
-				</div>
-                    <hr>
-                    <h2 class="intro-text text-center">USER
-                        <strong>login</strong>
-                    </h2>
-                    <hr>     
-					<div class="container  login_div">
-                         <div class="form-group col-lg-11"> 
-						 <label>Email Address</label>
-						 <input type="email" placeholder="Enter your email address." class="form-control" id="email_field" />
-						 </div>
-                        <div class="form-group col-lg-11"> 
-                         <label>Password</label>						
-						<input type="password" placeholder="Enter your Password." class="form-control" id="password_field" />
-						</div>
-                         <div class="form-group col-lg-12">
-                          <button onclick="login()" id="signup" class="btn btn-default">Login </button>
-                    </div>
-					</div><br>
-					<div class="form-group col-lg-12">
-						  <a href="preregister.php"><button type="submit" class="btn btn-default"> Not a  member? Register here.</button></a>
-						</div>
-                   
-						
-                    
-                </div>
-            </div>
-        </div>
-
-    </div>
-   
-    
-    
-	<div id="user_div" class="container">
+	<div class="container">
 
         <div class="row">
             <div class="box">
 			 <hr>
                     <h2 class="intro-text text-center">EV EUTOPIA
-                        <strong>blog</strong>
+                        <strong>Updates</strong>
                     </h2>
                     <hr>
-                <div class="col-lg-12">
-				<h2  class="text-center"><h3 class="text-center" id="user_para"><h3><div style="text-align: center;"><button  onclick="logout()">Logout</button></div></h2>
-                  <hr> 
-                </div>
-				
-	
+               
                 <div class="col-lg-12 text-center">
                     <div class="col-lg-6"><br><img src="img/w1.jpg" width="250" height="350" alt=""></div>
                     <div class="col-lg-6"><h2>EV EUTOPIA App
@@ -117,7 +71,7 @@
 					</p></h4>
                      
                 </div>
-				
+				</div>
 				<div class="col-lg-12">
 				<hr>
 				</div>
@@ -162,98 +116,12 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            
         </div>
 
     </div>
     <!-- /.container -->
-	<!-- Modal content -->
-
-	<div id="mymodal" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-		  <div class="modal-header">
-		    <button type="button" class="close" data-dismiss="modal">&times;</button> 
-		    <h4 class="modal-title">key features</h4>
-		  </div>
-		  <div class="modal-body">
-		    <p>Sample content</p>
-		  </div>
-          <div class="modal-footer">
-             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-		  
-        </div>
-      </div>
-    </div>	
-    <div id="mymodal1" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-		  <div class="modal-header">
-		    <button type="button" class="close" data-dismiss="modal">&times;</button> 
-		    <h4 class="modal-title">electrical vehicle 2</h4>
-		  </div>
-		  <div class="modal-body">
-		    <p>Sample content</p>
-		  </div>
-          <div class="modal-footer">
-             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-		  
-        </div>
-      </div>
-    </div>	
-	<div id="mymodal2" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-		  <div class="modal-header">
-		    <button type="button" class="close" data-dismiss="modal">&times;</button> 
-		    <h4 class="modal-title">CAR HEALTH STATUS </h4>
-		  </div>
-		  <div class="modal-body">
-		    <p>Sample content</p>
-		  </div>
-          <div class="modal-footer">
-             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-		  
-        </div>
-      </div>
-    </div>
-	<div id="mymodal3" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-		  <div class="modal-header">
-		    <button type="button" class="close" data-dismiss="modal">&times;</button> 
-		    <h4 class="modal-title">SHORTEST PATH TO NEAREST EV STATION </h4>
-		  </div>
-		  <div class="modal-body">
-		    <p>Sample content</p>
-		  </div>
-          <div class="modal-footer">
-             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-		  
-        </div>
-      </div>
-    </div>
-	<div id="mymodal4" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-		  <div class="modal-header">
-		    <button type="button" class="close" data-dismiss="modal">&times;</button> 
-		    <h4 class="modal-title">Nearest EV station </h4>
-		  </div>
-		  <div class="modal-body">
-		    <p>Sample content</p>
-		  </div>
-          <div class="modal-footer">
-             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-		  
-        </div>
-      </div>
-    </div>
+	
   </div>
  <!-- /.container -->
 
