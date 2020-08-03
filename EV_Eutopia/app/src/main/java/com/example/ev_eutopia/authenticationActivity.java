@@ -48,7 +48,7 @@ public class authenticationActivity extends AppCompatActivity {
         btnToSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent toSignup = new Intent(authenticationActivity.this, signupActivity.class);
+                Intent toSignup = new Intent(authenticationActivity.this, com.example.eveutopia.signupActivity.class);
                 startActivity(toSignup);
             }
         });
