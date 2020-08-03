@@ -10,6 +10,10 @@
             android:icon="@drawable/ic_home"
             android:title="@string/navHome" />
         <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Account" />
+        <item
             android:id="@+id/nav_nearest_station"
             android:icon="@drawable/ic_follow_route"
             android:title="@string/navNearestStation" />

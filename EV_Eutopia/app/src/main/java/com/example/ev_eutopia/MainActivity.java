@@ -9,7 +9,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-     private Button btnRide;
+    Button btnRide;
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+//        startUpCheck();
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,4 +33,32 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+//    private void startUpCheck() {
+//        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+//        if (user != null) {
+//            DatabaseReference ref = FirebaseDatabase.getInstance().getReference("cUsers");
+//
+//            ref.addListenerForSingleValueEvent(new ValueEventListener() {
+//                @Override
+//                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+//                    if(dataSnapshot.hasChild(user.getUid())) {
+//                        finish();
+//                        startActivity(new Intent(MainActivity.this, coorporateActivity.class));
+//                    }
+//                        else {
+//                        finish();
+//                        startActivity(new Intent(MainActivity.this, homeActivity.class));
+//                    }
+//                }
+//
+//                @Override
+//                public void onCancelled(@NonNull DatabaseError databaseError) {
+//                    Toast.makeText(MainActivity.this, databaseError.getMessage(), Toast.LENGTH_SHORT).show();
+//                }
+//            });
+//        } else {
+//            return;
+//        }
+//    }
 }

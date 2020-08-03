@@ -234,6 +234,7 @@
                                             android:textSize="12dp" />
 
                                         <TextView
+                                            android:id="@+id/battery_life_km"
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
                                             android:layout_margin="4dp"
@@ -241,7 +242,7 @@
                                             android:alpha="0.8"
                                             android:fontFamily="@font/regular"
                                             android:gravity="center"
-                                            android:text="192.4 km"
+                                            android:text=" "
                                             android:textColor="#ffffff"
                                             android:textSize="18sp" />
                                     </RelativeLayout>

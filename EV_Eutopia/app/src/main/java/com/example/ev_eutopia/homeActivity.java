@@ -36,10 +36,12 @@ public class homeActivity extends AppCompatActivity implements NavigationView.On
     private DrawerLayout drawer;
     private boolean pos = true;
     private NavigationView nav_view;
-    private FirebaseUser user;
+    public FirebaseUser user;
     private TextView nav_user_name, nav_user_email;
     private Button btnLogout;
     private String first_name, last_name;
+    public int battery;
+    public String vehicle_type;
 
     DatabaseReference mref;
     NotificationManagerCompat notificationManager;
@@ -157,6 +159,10 @@ public class homeActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_home:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new homeFragment()).commit();
                 pos = true;
+                break;
+            case R.id.nav_account:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AccountFragment()).addToBackStack(null).commit();
+                pos = false;
                 break;
             case R.id.nav_nearest_station:
                 Bundle bundle = new Bundle();

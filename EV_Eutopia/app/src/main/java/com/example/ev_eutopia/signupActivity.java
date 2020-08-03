@@ -1,4 +1,4 @@
-package com.example.ev_eutopia;
+package com.example.eveutopia;
 
 import android.content.Intent;
 import android.location.Address;
@@ -14,9 +14,6 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.eveutopia.R;
-import com.example.eveutopia.User;
-import com.example.eveutopia.homeActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -151,7 +148,7 @@ public class signupActivity extends AppCompatActivity implements PopupMenu.OnMen
         }
     }
 
-    public void popup_menu(View view) {
+    private void popup_menu(View view) {
         PopupMenu popup = new PopupMenu(this,view);
         popup.setOnMenuItemClickListener(this);
         popup.inflate(R.menu.popup_menu_ev_type);

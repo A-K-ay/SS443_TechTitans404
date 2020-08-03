@@ -24,7 +24,7 @@ import com.google.firebase.database.ValueEventListener;
 public class homeFragment extends Fragment {
 
     private DatabaseReference mref;
-    private TextView ev_battery, ev_type;
+    private TextView ev_battery, ev_type, battery_life_km;
     private ProgressBar progress_bar;
     private CardView get_directions, community_card;
 
@@ -33,11 +33,14 @@ public class homeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable final ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_home, container, false);
 
+        final homeActivity homeActivityObj = (homeActivity) getActivity();
+
         mref = FirebaseDatabase.getInstance().getReference();
         progress_bar = v.findViewById(R.id.progress_bar);
 
         ev_battery = v.findViewById(R.id.ev_battery);
         ev_type = v.findViewById(R.id.ev_type);
+        battery_life_km = v.findViewById(R.id.battery_life_km);
 
         get_directions = v.findViewById(R.id.get_directions);
         community_card = v.findViewById(R.id.communty_card);
@@ -45,8 +48,9 @@ public class homeFragment extends Fragment {
         mref.child("battery").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                int battery = dataSnapshot.getValue(Integer.class);
-                ev_battery.setText(Integer.toString(battery));
+                homeActivityObj.battery = dataSnapshot.getValue(Integer.class);
+                ev_battery.setText(Integer.toString(homeActivityObj.battery));
+                battery_life_km.setText(7*((homeActivityObj.battery *64)/100)+"km");
                 progress_bar.setVisibility(View.INVISIBLE);
             }
 
@@ -56,11 +60,14 @@ public class homeFragment extends Fragment {
             }
         });
 
+
+
         mref.child("users").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.hasChild("vehicle_type")) {
-                    ev_type.setText(dataSnapshot.child("vehicle_type").getValue().toString());
+                    homeActivityObj.vehicle_type = dataSnapshot.child("vehicle_type").getValue(String.class);
+                    ev_type.setText(homeActivityObj.vehicle_type);
                 }
             }
 
