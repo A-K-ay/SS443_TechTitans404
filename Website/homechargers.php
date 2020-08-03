@@ -50,7 +50,7 @@
           <a href="new3.php" class="list-group-item">2 Wheeler</a>
           <a href="new2.php" class="list-group-item">3 Wheeler</a>
           <a href="new.php" class="list-group-item">Passenger car</a>
-		  <a href="homechargers.php" class="list-group-item">Portable Home chargers</a>
+		  <a href="#" class="list-group-item">Portable Home chargers</a>
         </div>
 
       </div>
@@ -68,13 +68,13 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img class="img-responsive img-full" src="img/e7.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/c4.png" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/e9.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/c1.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/e8.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/c3.jpg" alt="">
                             </div>
                         </div>
 
@@ -98,18 +98,18 @@
 				<div class="col-lg-12">
                     <hr>
                     <h2 class="intro-text text-center">EV EUTOPIA
-                        <strong>Vehicles</strong>
+                        <strong>Portable Home Chargers</strong>
                     </h2>
                     <hr>
                 </div>
                     
 					<div class="col-lg-12 text-center">
-                   <a href="teslas.php"> <div class="col-lg-6"><img class="img-responsive img-border img-full" src="img/e7.jpg" alt=""></div></a>
-                     <div class="col-lg-6"><h2>ELECTRIC VEHICLE<br> Model S
+                   <a href="img/c4.png"> <div class="col-lg-6"><img class="img-responsive img-border img-full" src="img/c4.png" alt=""></div></a>
+                     <div class="col-lg-6"><h2>EV Eutopia<br> DC Wall Charger
                         <br>
                         <small>March 13, 2020</small>
                     </h2>
-                    <p>Model S is built with best in class storage, seating for up to five adults and an expansive 17-inch touchscreen. Advanced noise engineering creates sound dynamics comparable to a recording studio, while the standard Glass Roof provides a spacious interior experience for every passenger.Model S is built with best in class storage, seating for up to five adults and an expansive 17-inch touchscreen. </p>
+                    <p>The charging revolution that allows energy to flow two ways. Quasar is the first charger for your home using advanced bidirectional charging technology. It charges and discharges through a CHAdeMO vehicle connector and is available with a maximum power of 7.4 kW. </p>
                     <button type="button" class="btn btn-info btn-large" data-toggle="modal" data-target="#mymodal">Read more</button>
                     </div>
 					<hr/>
@@ -120,12 +120,12 @@
 				</div>
 				
 				<div class="col-lg-12 text-center">
-                   <a href="zsev.php"> <div class="col-lg-6"><img class="img-responsive img-border img-full" src="img/e9.jpg" alt=""></div></a>
-                     <div class="col-lg-6"><h2>ELECTRIC VEHICLE <br> ZS EV
+                   <a href="img/c1.jpg"> <div class="col-lg-6"><img class="img-responsive img-border img-full" src="img/c1.jpg" alt=""></div></a>
+                     <div class="col-lg-6"><h2>EV Eutopia <br> Type 2 Wall Charger
                         <br>
                         <small>January 13, 2020</small>
                     </h2>
-                    <p>MG ZS EV is designed for those who want all the advantages of a zero emission car without compromising on style.MG ZS EV is designed for those who want all the advantages of a zero emission car without compromising on style</p>
+                    <p>Electric car charger type 2 for electric vehicles Works with MG ZS EV, Hyundai Kona, Tata Nexon Electric, Indian Plug 16Amp portable ev charging cable.</p>
                     <button type="button" class="btn btn-info btn-large" data-toggle="modal" data-target="#mymodal1">Read more</button>
                     </div>
 					<hr/>
@@ -137,12 +137,12 @@
 				
 				
 				<div class="col-lg-12 text-center">
-                    <a href="bolt.php"><div class="col-lg-6"><img class="img-responsive img-border img-full" src="img/e8.jpg" alt=""></div></a>
-                     <div class="col-lg-6"><h2>ELECTRIC VEHICLE<br> Bolt EV
+                    <a href="img/c3.jpg"><div class="col-lg-6"><img class="img-responsive img-border img-full" src="img/c3.jpg" alt=""></div></a>
+                     <div class="col-lg-6"><br><h2>EV Eutopia<br> AC Wall Charger
                         <br>
                         <small>November 13, 2019</small>
                     </h2>
-                    <p>From your weekday commute to weekend trips and all the places in between, Bolt EV is ready to take you wherever you want to go. This ride is an affordable all-electric vehicle that offers an EPA-estimated 259 miles of range on a full charge.† Plus, it offers advanced safety technologies, plenty of space and good looks on top of that. With Bolt EV, there’s nothing holding you back</p>
+                    <p>The EV Eutopia AC wallbox provides a high quality yet cost effective electric car charging point. Easy to fit and with a compact design, the wallbox can be installed at homes or offices, allowing drivers to simply plug their car in and get on with their day.</p>
                     <button type="button" class="btn btn-info btn-large" data-toggle="modal" data-target="#mymodal2">Read more</button>
                     </div>
 					<hr/>
@@ -164,31 +164,20 @@
 	    <div class="modal-content">
 		  <div class="modal-header">
 		    <button type="button" class="close" data-dismiss="modal">&times;</button> 
-		    <h2 class="modal-title">electrical vehicle Model S</h2>
+		    <h2 class="modal-title">DC Wall Charger</h2>
 		  </div>
 		  <div class="modal-body">
 		    <p><h3>Features</h3>
 			<ul>
-			  <li><h4>Model S is built from the ground up as an electric vehicle, with high-strength architecture and a floor-mounted battery pack allowing for incredible impact protection.</h4></li>
-			  <li><h4>Model S sets an industry standard for performance and safety. Tesla’s all-electric powertrain delivers unparalleled performance in all weather conditions – with Dual Motor All-Wheel Drive, adaptive air suspension and ludicrous acceleration.</h4></li>
-			  <li><h4>Recharge up to 163 miles in 15 minutes at any Supercharger location.Go anywhere with up to 402 miles of range on a single charge</h4></li>
-			  <li><h4>Autopilot advanced safety and convenience features are designed to assist you with the most burdensome parts of driving.</h4></li>
-			  <li><h4>Model S is built with best in class storage, seating for up to five adults and an expansive 17-inch touchscreen. Advanced noise engineering creates sound dynamics comparable to a recording studio, while the standard Glass Roof provides a spacious interior experience for every passenger.</h4></li>
+			  <li><h4>Measures how much electricity you use and gives the rest to your car. Turning the lights off in one room? Power Boost automatically adjusts the power and provides you with the best possible charging experience.</h4></li>
+			  <li><h4>Allows your Wallbox to communicate with its MyWalbox charging management platform using 3G or 4G networks. For updated and synchronized data in real-time.</h4></li>
+			  <li><h4>It is different from any charger you have ever seen before. It’s the lightest and smallest charger of its kind, offering advanced bidirectional charging technology, specially designed for home use.</h4></li>
+			  <li><h4>It features advanced facial recognition and gesture control technology optional, offering you the security and flexibility to assign accounts to friends and neighbors. In addition to facial recognition, you can unlock Quasar using Bluetooth proximity, the Wallbox app, and RFID.</h4></li>
+			  <li><h4>From turning your EV into an emergency power source to making extra income by selling energy back to the grid to becoming energy self-sufficient - two-way charging offers you multiple benefits.</h4></li>
 			
 			</ul>
 			</p>
-			<p><h3>Specifications</h3>
-			<ul>
-			  <li><h4>Weight - 4,941 lbs</h4></li>
-			  <li><h4>Displays - Driver Display + 17" Touchscreen</h4></li>
-			  <li><h4>Supercharging - Max/Payment Type250 kW max; Pay Per Use</h4></li>
-			  <li><h4>Seating - 5 Adults</h4></li>
-			  <li><h4>Warranty Basic Vehicle - 4 years or 50,000 miles, whichever comes first<br>
-			  Battery & Drive Unit - 8 years or 150,000 miles, whichever comes first</h4></li>
-			
-			</ul>
-			</p>
-			<h3>Price starts from:<h4>$69,490 - $89,490</h4></h3>
+			<h3>Price starts from:<h4>Rs 7.26 Lakh/Piece</h4></h3>
 		  </div>
           <div class="modal-footer">
              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -203,30 +192,20 @@
 	    <div class="modal-content">
 		  <div class="modal-header">
 		    <button type="button" class="close" data-dismiss="modal">&times;</button> 
-		    <h2 class="modal-title">electrical vehicle ZS EV</h2>
+		    <h2 class="modal-title">Type 2 Wall Charger</h2>
 		  </div>
 		  <div class="modal-body">
 		    <p><h3>Features</h3>
 			<ul>
-			  <li><h4>Inspired from various elements of the celestial bodies and Nature. MG ZS EV is all packed to fulfill your style quotient.</h4></li>
-			  <li><h4>Safety is our foundation at MG. The ZS EV comes with the 5 star NCAP rating.</h4></li>
-			  <li><h4>MG ZS EV is an Electric suv Car. The electric motor generates a power of 140.8bhp@3500rpm and a torque of 353Nm@5000rpm.</h4></li>
-			  <li><h4>MG ZS EV is available in Automatic transmission only.</h4> </li>
-			  <li><h4>In configurations, MG ZS EV has a dimensions of 4314 mm in length, 1809 mm in width and 1620 mm in height.</h4></li>
+			  <li><h4>[Control Box Function] : Leakage protection (Restart recovery), Overvoltage under-voltage protection (self-checking recovery), Overload protection, Lightning protection</h4></li>
+			  <li><h4>[Electrical Performance] : Rated current and voltage: 230V±10% AC 16A, Insulation resistance: >1000mΩ, Terminal temperature rise: <50K .</h4></li>
+			  <li><h4>[Mechanical Properties] : Mechanical life: no-load plug in/pull out >10000 times, Impact of external force: can afford 1m drop and 2t vehicle run-over pressure.</h4></li>
+			  <li><h4>Nice shape, hand-held ergonomic design, easy to use, Safety design to prevent users from personal injuiry.</h4> </li>
+			  <li><h4>Reliability of materials, antiflaming, environmental protection, abrasion resisitance, impact resistance, oil resistance and Anti-UV.</h4></li>
 			
 			</ul>
 			</p>
-			<p><h3>Specifications</h3>
-			<ul>
-			  <li><h4>Fuel Type - Electric</h4></li>
-			  <li><h4>Power - 140.8bhp@3500rpm</h4></li>
-			  <li><h4>Seating Capacity - 5</h4></li>
-			  <li><h4>Transmission - automatic</h4></li>
-			  <li><h4>Driving Modes - Eco, Sport & Normal</h4></li>
-			
-			</ul>
-			</p>
-			<h3>Price starts from:<h4>Rs. 20.88 - 23.58 Lakh</h4></h3>
+			<h3>Price starts from:<h4>Rs. 22500</h4></h3>
 		  </div>
           <div class="modal-footer">
              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -240,32 +219,20 @@
 	    <div class="modal-content">
 		  <div class="modal-header">
 		    <button type="button" class="close" data-dismiss="modal">&times;</button> 
-		    <h2 class="modal-title">electrical vehicle Bolt EV </h2>
+		    <h2 class="modal-title">AC Wall Charger </h2>
 		  </div>
 		  <div class="modal-body">
 		    <p><h3>Features</h3>
 			<ul>
-			  <li><h4>Bolt EV offers an EPA-estimated 259 miles of range,nearly 10% more than previous model years, or 21 miles farther than before. You can go a day – or possibly even a few days – without needing to charge. That means you’ll have all the range you need for your daily routine plus a few stops along the way.</h4></li>
-			  <li><h4>Ready to get going? The myChevrolet Mobile App with Energy Assist uses key information such as the vehicle’s current charge, driving conditions and real-time weather to calculate the most efficient route for you. If you need to stop for a charge, Energy Assist points you to the nearest charging station and automatically updates as conditions change, so you’ll know exactly where to go.</h4></li>
-			  <li><h4>Sometimes, the more information the better. The 10.2-inch diagonal color touch-screen display gives you tons of real-time vehicle information, such as your battery levels, estimated range and charge settings. Plus, split screens and expanded views keep your music, contacts and everything else within reach.</h4></li>
-			  <li><h4>Outside, the beautifully sculpted body and eye-catching details grab attention wherever you go. Inside, there’s comfortable seating for five with plenty of shoulder, head and leg room for everybody.</h4></li>
-			  <li><h4>It’s your space — use it how you want. If you’re loading large or odd-sized items, simply fold down the rear seats for 56.6 cu. ft.of maximum cargo room. And the rear area in this electric vehicle features a deep well with a false cargo floor (standard on Premier) for even more room to store your things.</h4></li>
+			  <li><h4>4.6kW (only B), 11kW and 22kW AC charging available</h4></li>
+			  <li><h4>Robust all-weather enclosure for indoor and outdoor use.</h4></li>
+			  <li><h4>DC leakage detection included.</h4></li>
+			  <li><h4>Authentication (B+).</h4></li>
+			  <li><h4>Compact design to save space.</h4></li>
 			
 			</ul>
 			</p>
-			<p><h3>Specifications</h3>
-			<ul>
-			  <li><h4>BATTERY - liquid-cooled lithium-ion, 66.0 kWh</h4></li>
-			  <li><h4>TRANSMISSION - single-speed direct drive</h4></li>
-			  <li><h4>Suspension (F/R): struts/multilink<br>
-			  Brakes (F/R) -  10.9-in vented disc/10.4-in disc</h4></li>
-			  <li><h4>VEHICLE TYPE - front-motor, front-wheel-drive, 5-passenger, 4-door hatchback</h4></li>
-			  <li><h4>EPA FUEL ECONOMY - Combined/city/highway: 118/127/108 MPGe<br>
-			  Range - 259 miles</h4></li>
-			
-			</ul>
-			</p>
-			<h3>Price starts from:<h4>$36,620 - $41,420</h4></h3>
+			<h3>Price starts from:<h4>Rs. 90,000</h4></h3>
 		  </div>
           <div class="modal-footer">
              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
