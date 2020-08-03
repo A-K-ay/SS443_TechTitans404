@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Morning Slot(6am to1pm)">
+        <menu>
+            <item
+                android:id="@+id/m6"
+                android:title="6:00 am" />
+            <item
+                android:id="@+id/m7"
+                android:title="7:00 am" />
+            <item
+                android:id="@+id/m8"
+                android:title="8:00 am" />
+            <item
+                android:id="@+id/m9"
+                android:title="9:00 am" />
+            <item
+                android:id="@+id/m10"
+                android:title="10:00 am" />
+            <item
+                android:id="@+id/m11"
+                android:title="11:00 am" />
+            <item
+                android:id="@+id/m12"
+                android:title="12:00 pm" />
+            <item
+                android:id="@+id/m13"
+                android:title="1:00 pm" />
+        </menu>
+    </item>
+
+    <item android:title="Evening Slot(5pm to 9pm)">
+        <menu>
+            <item
+                android:id="@+id/e5"
+                android:title="5:00 pm" />
+            <item
+                android:id="@+id/e6"
+                android:title="6:00 pm" />
+            <item
+                android:id="@+id/e7"
+                android:title="7:00 pm" />
+            <item
+                android:id="@+id/e8"
+                android:title="8:00 pm" />
+            <item
+                android:id="@+id/e9"
+                android:title="9:00 pm" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/emergency_swap"
+        android:title="Request emergency swap" />
+</menu>

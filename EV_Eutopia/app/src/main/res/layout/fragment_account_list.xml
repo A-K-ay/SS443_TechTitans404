@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.example.eveutopia.AccountFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccountFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/account_pic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_account_circle_24"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/account_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account_pic"
+            android:layout_centerHorizontal="true"
+            android:drawableTint="@color/colorPrimary"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="16dp"
+            android:text="User Name"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/account_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/account_user_name"
+            android:layout_centerHorizontal="true"
+            android:alpha="0.6"
+            android:drawableTint="@color/colorPrimary"
+            android:fontFamily="@font/regular"
+            android:paddingHorizontal="16dp"
+            android:text="User Email"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="16dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/account_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:drawableTint="@color/colorPrimary"
+                android:fontFamily="@font/regular"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:text="Edit Profile"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="12dp"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EV History"
+                    android:paddingHorizontal="4dp"
+                    android:fontFamily="@font/regular"/>
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/account_charging_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:drawableTint="@color/colorPrimary"
+                android:fontFamily="@font/regular"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:text="Charging History"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/account_battery_swap_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:drawableTint="@color/colorPrimary"
+                android:fontFamily="@font/regular"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:text="Battery Swap History"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/account_booking_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:drawableTint="@color/colorPrimary"
+                android:fontFamily="@font/regular"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:text="Bookings"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/account_help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:drawableTint="@color/colorPrimary"
+                android:fontFamily="@font/regular"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:text="Help &amp; Support"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="12dp"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Enviroment"
+                    android:paddingHorizontal="4dp"
+                    android:fontFamily="@font/regular"/>
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="?android:attr/listDivider"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/account_payment_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right"
+                android:drawableTint="@color/colorPrimary"
+                android:fontFamily="@font/regular"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:text="Payment History"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
